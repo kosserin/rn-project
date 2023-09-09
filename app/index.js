@@ -25,14 +25,14 @@ const Home = () => {
           headerRight: () => (
             <ScreenHeaderBtn iconUrl={images.profile} dimension="100%" />
           ),
-          headerTitle: 'dasdsa∂138aaa9'
+          headerTitle: "dasdsa∂138aaa9",
         }}
       />
       <ScrollView showsVerticalScrollIndicator={false}>
-        <View style={{flex: 1, padding: SIZES.medium}}>
-            <Welcome />
-            <Popularjobs />
-            <Nearbyjobs />
+        <View style={{ flex: 1, padding: SIZES.medium }}>
+          <Welcome />
+          <Popularjobs />
+          <Nearbyjobs />
         </View>
       </ScrollView>
     </SafeAreaView>
